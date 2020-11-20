@@ -1,0 +1,249 @@
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26666667px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: #c0d167;
+}
+body {
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+  background-color: #605f39;
+}
+.container {
+  max-width: 768px;
+  margin-top: -50px;
+}
+.logo img:nth-child(1) {
+  width: 45px;
+  height: 45px;
+}
+.logo img:nth-child(2) {
+  margin-top: 5px;
+  height: 45px;
+}
+.addList {
+  padding: 0.16rem 1rem;
+  position: relative;
+}
+.addList input {
+  width: 100%;
+  height: 0.7rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #cfe4ff;
+  outline: none;
+  font-size: 0.4rem;
+  text-indent: 15px;
+}
+.addList span {
+  color: #605f39;
+  position: absolute;
+  right: 1.4rem;
+  top: 0.28rem;
+  font-size: 0.5rem;
+}
+.btnadd {
+  width: 50px;
+  height: 50px;
+  background-color: #fb7299;
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 50px;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
+  z-index: 20;
+}
+.xs_addList {
+  background-color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  width: 100vw;
+  height: 10vh;
+  font-size: 18px;
+  display: none;
+  z-index: 20;
+}
+.xs_addList input {
+  outline: none;
+  border: none;
+  text-align: center;
+  margin-top: 10px;
+}
+.xs_addList span {
+  color: #fb7299;
+}
+main::-webkit-scrollbar {
+  display: none;
+}
+main {
+  overflow: scroll;
+  background-color: #d4e3ce;
+  margin-top: -1px;
+  height: 100vh;
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+  border: 1px #d4cac2 solid;
+  box-shadow: 10px 4px 5px rgba(0, 0, 0, 0.3);
+}
+main ol,
+main ul {
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+}
+main .time {
+  position: relative;
+}
+main .time h3,
+main .time h2 {
+  color: #d58fa9;
+  margin: 0;
+  padding: 0;
+}
+main .time h2 {
+  color: #d17b9a;
+}
+main .time .second {
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  transform: translate(50%, -50%);
+  color: #d58fa9;
+  font-size: 40px;
+}
+main > h2 {
+  font-weight: 900;
+  position: relative;
+  color: #253246;
+}
+main #conrrentNo,
+main #conrrentYes {
+  color: #fff;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 16px;
+  background-color: gray;
+  width: 20px;
+  height: 100%;
+  border-radius: 10px;
+  line-height: 33px;
+  text-align: center;
+  font-weight: 100;
+}
+main li {
+  position: relative;
+  background-color: #c0d167;
+  height: 35px;
+  border-radius: 0.2rem;
+  margin-top: 10px;
+  overflow: hidden;
+}
+main li p {
+  display: inline-block;
+}
+main li i {
+  display: block;
+  width: 8px;
+  height: 100%;
+  position: absolute;
+  background-color: pink;
+}
+main li input {
+  position: absolute;
+  top: 0.04rem;
+  left: 0.2rem;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+main li p {
+  margin-left: 50px;
+  height: 35px;
+  line-height: 35px;
+}
+main li span.glyphicon {
+  font-size: 20px;
+  color: #d58fa9;
+  position: absolute!important;
+  top: 8px;
+  right: 11px;
+}
+main ul.yes {
+  opacity: 0.5;
+}
+main .edit {
+  width: 300px;
+  height: 25px;
+  margin-top: 3px;
+  margin-left: 30px;
+  outline: none;
+}
+footer {
+  height: 30px;
+  text-align: center;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}

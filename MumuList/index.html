@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-sclable=no"
+    />
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <!-- 头标logo -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <title>欢迎使用木木清单</title>
+    <link rel="stylesheet" href="./bootstrap-3.3.7/css/bootstrap.min.css" />
+    <script src="./js/jQuery.js"></script>
+    <script src="./bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+    </div>
+    <div class="container" id="list">
+      <div class="row">
+        <div class="col-sm-4 logo">
+          <img src="./img/logo_min.png" alt="" />
+          <img src="./img/logo_text.png" alt="" />
+        </div>
+        <div class="col-sm-8 addList hidden-xs">
+          <input type="text" placeholder="添加清单事件" />
+          <span class="glyphicon glyphicon-send"></span>
+        </div>
+        <!-- 手机屏幕上面的加 -->
+        <div class="visible-xs btnadd">
+          +
+        </div>
+        <div class=" xs_addList">
+          <input type="text" placeholder="添加清单事件" />
+          <span class="glyphicon glyphicon-send"></span>
+        </div>
+      </div>
+      <!-- 内容模块 -->
+      <main class="row">
+        <div class="time">
+          <h3>今天是</h3>
+          <h2>2018/02/30</h2>
+          <h2 class="second">时间来</h2>
+        </div>
+        <h2>正在进行 <i id="conrrentNo"></i> </h2>
+        <ol>
+          <li>
+            <input type="checkbox" name="" id="" class="yes" disabled='true' />
+            <p>你可以添加任务清单</p>
+            <span class="glyphicon glyphicon-scissors"></span>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" class="yes" disabled='true' />
+            <p>我会帮助你完成任务</p>
+            <span class="glyphicon glyphicon-scissors"></span>
+          </li>
+        </ol>
+        <h2>已完成 <i id="conrrentYes"></i> </h2>
+        <ul class="yes">
+        </ul>
+      </main>
+    </div>
+    <footer>
+      <p>网站站长邮箱：1139027508@qq.com</p>
+      <a href="http://www.beian.miit.gov.cn/"><img style="width: 15px;" src="./img/TB1.png" alt=""> 黔ICP备20001586号</a>
+    </footer>
+    
+  </body>
+</html>
